@@ -1,17 +1,24 @@
+# Core LLM & Agent
 langchain
 langchain-community
-langchain-experimental
-fastapi
-python-dotenv
-streamlit
-uvicorn
-pydantic
-httpx
-requests
-langchain_google_community
-langchain_tavily
-langchain_groq
-langchain_openai
+langchain-core
+langchain-groq
+langchain-google-genai
 langgraph
-langchain-google-community[places]
+
+# Web Framework
+fastapi
+uvicorn[standard]
+pydantic
+
+# Streamlit UI
+streamlit
+sseclient-py
+requests
+httpx
+
+# Utilities
+python-dotenv
+
+# Package install
 -e .
